@@ -85,7 +85,23 @@ function AuthPage() {
           Your searches, sources and syntheses stay saved to your account.
         </p>
 
+        <Button variant="secondary" className="mt-6 w-full" asChild>
+          <Link to="/demo">
+            <PlayCircle className="mr-2 size-4" /> Explore demo — no sign-up needed
+          </Link>
+        </Button>
+        <p className="mt-2 text-center text-xs text-muted-foreground">
+          Opens a finished sample project. Read-only and separate from real accounts.
+        </p>
+
+        <div className="my-5 flex items-center gap-3 text-xs text-muted-foreground">
+          <span className="h-px flex-1 bg-border" />
+          or sign in
+          <span className="h-px flex-1 bg-border" />
+        </div>
+
         <form onSubmit={submit} className="mt-6 space-y-4">
+
           <div className="space-y-2">
             <Label htmlFor="email">Email</Label>
             <Input id="email" type="email" required value={email} onChange={(e) => setEmail(e.target.value)} />
