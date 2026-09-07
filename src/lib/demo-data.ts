@@ -31,27 +31,27 @@ Cooling-centre networks are shifting from emergency shelters to everyday public 
   images: [
     {
       url: "https://images.unsplash.com/photo-1470723710355-95304d8aece4?w=800&q=70",
-      caption: "Tree-lined street shading a dense block",
+      caption: "Dense city at night, when trapped heat lingers",
     },
     {
       url: "https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?w=800&q=70",
-      caption: "Mature canopy cover over a residential district",
+      caption: "Mature tree canopy, the strongest long-run cooler",
     },
     {
       url: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=70",
-      caption: "Dense city core with limited green space",
+      caption: "Glass and concrete core with little shade",
     },
     {
       url: "https://images.unsplash.com/photo-1518005020951-eccb494ad742?w=800&q=70",
-      caption: "White reflective roof surfaces on apartment blocks",
+      caption: "Reflective building surfaces bouncing sunlight away",
     },
     {
       url: "https://images.unsplash.com/photo-1444927714506-8492d94b4e3d?w=800&q=70",
-      caption: "Public square with shade structures and water",
+      caption: "Cooler green landscape beyond the built-up core",
     },
     {
       url: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=70",
-      caption: "Urban park acting as a cooling refuge",
+      caption: "Park greenery acting as a cooling refuge",
     },
   ],
   sources: [
