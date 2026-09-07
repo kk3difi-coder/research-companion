@@ -71,11 +71,15 @@ function Landing() {
             Set a topic, a site, a date window and keywords. Lumen reads the pages, scores each source and
             writes an easy-to-read synthesis you can question.
           </p>
-          <div className="mt-8 flex justify-center gap-3">
+          <div className="mt-8 flex flex-wrap justify-center gap-3">
             <Button asChild size="lg">
               <Link to="/auth">Start researching</Link>
             </Button>
+            <Button asChild size="lg" variant="outline">
+              <Link to="/demo">Explore demo</Link>
+            </Button>
           </div>
+
         </section>
 
         <section className="mx-auto grid max-w-5xl gap-4 px-6 pb-24 sm:grid-cols-2">
